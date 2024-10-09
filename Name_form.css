@@ -13,10 +13,12 @@ body {
     background-color: silver;
 }
 
-input[type=text] {
+input[type=text]
+input[type=password] {
     padding: 10px;
 }
 
-input[required] ::after{
+.required:after{
 content: '*';
+color: red;
 }
