@@ -16,9 +16,23 @@ body {
 input[type=text]
 input[type=password] {
     padding: 10px;
+    border-radius: 2px;
 }
 
 .required:after{
 content: '*';
 color: red;
+}
+
+input:focus{
+    outline: 2px solid red;
+    border-radius: 2px;
+}
+
+input:required:invalid {
+    border: 1px solid red;
+}
+
+input:required:valid {
+    border: 1px solid green;
 }
