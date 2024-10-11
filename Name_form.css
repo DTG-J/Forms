@@ -14,10 +14,12 @@ body {
 }
 
 input[type=text]
-input[type=password] {
+input[type=password]
+input[type=tel] {
     padding: 10px;
     border-radius: 2px;
 }
+
 
 .required:after{
 content: '*';
@@ -31,8 +33,24 @@ input:focus{
 
 input:required:invalid {
     border: 1px solid red;
+    border-radius: 3px;
 }
 
 input:required:valid {
     border: 1px solid green;
+    border-radius: 3px;
+}
+
+input[type=submit] {
+    background: rgb(43, 39, 39);
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+background: blue;
 }
