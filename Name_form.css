@@ -9,6 +9,13 @@ form {
     gap: 10px;
 }
 
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 21px;
+}
+
 body {
     background-color: silver;
 }
@@ -55,4 +62,11 @@ input[type=submit] {
 
 input[type=submit]:hover {
 background: blue;
+}
+
+.radio_button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
 }
