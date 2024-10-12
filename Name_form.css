@@ -75,3 +75,11 @@ form fieldset p {
     flex: 0 0 100%;
     
 }
+
+.IDE {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
