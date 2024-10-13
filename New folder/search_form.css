@@ -14,6 +14,27 @@ body {
 
 .fa-github {
     position: absolute;
-    top: 0;
-    right: 40;
+    top: 10px;
+    right: 40px;
+    font-size: 50px;
+}
+
+.form_container > form {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label[for=search] {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+input[type=search] {
+    background-color: rgb(234, 228, 228);
+    border: 0;
+    padding: 10px 13px;
+    border-radius: 20px;
+    color: black;
 }
