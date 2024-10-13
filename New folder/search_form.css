@@ -1,7 +1,9 @@
 body {
     background-color: gray;
 }
-
+.positon-relative {
+    position: relative;
+}
 .form_container {
     position: relative;
     background: black;
@@ -40,9 +42,28 @@ input[type=search] {
 }
 
 input[type=search]::placeholder {
-    color: white;
+    color: rgb(129, 124, 124);
 }
 
 input[type=search]:focus {
     outline: 0;
+    background: grey;
+}
+
+button[type=submit]{
+    position: absolute;
+    bottom: 3%;
+    right: 2px;
+    border: 0;
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 3px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background: grey;
+    color: black;
 }
