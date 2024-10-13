@@ -1,0 +1,19 @@
+body {
+    background-color: gray;
+}
+
+.form_container {
+    position: relative;
+    background: black;
+    color: white;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 300px;
+    border-radius: 50px;
+}
+
+.fa-github {
+    position: absolute;
+    top: 0;
+    right: 40;
+}
