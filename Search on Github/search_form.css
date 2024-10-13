@@ -22,7 +22,7 @@ body {
 }
 
 .form_container > form {
-    max-width: 70%;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -30,13 +30,14 @@ body {
 
 label[for=search] {
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 700;
+    padding: 10px;
 }
 
 input[type=search] {
     background-color: rgb(234, 228, 228);
     border: 0;
-    padding: 10px 13px;
+    padding: 10px 15px;
     border-radius: 20px;
     color: black;
 }
@@ -52,8 +53,8 @@ input[type=search]:focus {
 
 button[type=submit]{
     position: absolute;
-    bottom: 3%;
-    right: 2px;
+    bottom: 9px;
+    right: 11px;
     border: 0;
     background: black;
     color: white;
@@ -66,4 +67,16 @@ button[type=submit]{
 button[type=submit]:hover {
     background: grey;
     color: black;
+}
+
+fieldset {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+
+legend {
+    font-size: 15px;
 }
