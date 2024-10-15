@@ -36,6 +36,43 @@
             </fieldset>
         </form>
     </div>
+
+    <div class="form_container youtube">
+        <i class="fa-brands fa-youtube"></i>
+        <form action="https://www.youtube.com/results" method="get" class="positon-relative" target="_blank">
+            <!-- <fieldset>
+                <legend class="small">Choose search type</legend>
+
+                <div>
+                    <input type="radio" id="repositories" name="type" value="repositories">
+                    <label for="repositories">Repos</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="issues" name="type" value="issues">
+                    <label for="issues">Issues</label>
+                </div>
+
+                <div>
+                     <input type="radio" id="pullrequests" name="type" value="pullrequests">
+                    <label for="pullrequests">Pull requests</label>
+                </div>
+            </fieldset> -->               
+                <label for="search">What is your favourite song today?</label>
+                <input type="search" id="search" name="search_query" required placeholder="Enter your search term">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            
+        </form>
+    </div>`
+
+    <div class="form_container google">
+        <i class="fa-brands fa-google"></i>
+        <form action="https://www.google.com/search" method="get" class="positon-relative" target="_blank">
+                <label for="search">What are you looking for today?</label>
+                <input type="search" id="search" name="q" required placeholder="Enter your search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </div>
     
 </body>
 </html>

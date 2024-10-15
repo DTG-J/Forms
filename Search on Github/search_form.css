@@ -14,7 +14,22 @@ body {
     border-radius: 50px;
 }
 
-.fa-github {
+.form_container.youtube,
+.youtube button[type=submit] {
+    background: red;
+}
+
+.form_container.google,
+.google button[type=submit] {
+    background-image: url(\google_green.jpg); 
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.fa-github,
+.fa-youtube,
+.fa-google {
     position: absolute;
     top: 10px;
     right: 40px;
@@ -57,6 +72,32 @@ button[type=submit]{
     right: 11px;
     border: 0;
     background: black;
+    color: white;
+    font-size: 20px;
+    padding: 3px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.youtube button[type=submit]
+{
+    position: absolute;
+    bottom: 3px;
+    right: 4px;
+    border: 0;
+    background: rgb(222, 35, 35);
+    color: white;
+    font-size: 20px;
+    padding: 3px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.google button[type=submit] {
+    position: absolute;
+    bottom: 3px;
+    right: 4px;
+    border: 0;
+    background: rgb(35, 222, 110);
     color: white;
     font-size: 20px;
     padding: 3px 5px;
