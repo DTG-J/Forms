@@ -48,3 +48,16 @@ legend {
 .loginForm input:required ~ label::after {
     content:  '*';
     color:red
+}
+.loginForm input{
+    border: 2px solid silver;
+    padding: 5px;
+    border-radius: 3px;
+}
+.loginForm input[type="submit"]{
+    border: 0;
+    background: darkorange;
+    color: white;
+    font-size: 1.3em;
+}
+
